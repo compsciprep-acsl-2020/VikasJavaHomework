@@ -1,4 +1,5 @@
 public class Excercise1 {
+    int i;
     public static int sumMupltiple(int num, int limit) {
         int Mulitples = (limit - 1) / num;
         return num * (Mulitples * (Mulitples + 1) / 2);
